@@ -14,13 +14,13 @@ operator = argv[2]
 a = int(argv[1])
 b = int(argv[3])
 if operator == "+":
-    print(f"{a} + {b} = add{a, b}")
+    print(f"{a} + {b} = {a + b}")
 elif operator == "-":
-    print("{a} - {b} = sub{a, b}")
+    print(f"{a} - {b} = {a - b}")
 elif operator == "*":
-    print("{a} * {b} = mul{a, b}")
+    print(f"{a} * {b} = {a * b}")
 elif operator == "/":
-    print("{a} / {b} = div{a, b}")
+    print(f"{a} / {b} = {a / b}")
 else:
     print("Unknown operator. Available operators: +, -, * and /")
     exit(1)
