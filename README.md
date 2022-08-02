@@ -7,4 +7,5 @@ This repository contains programs written for the higher-level programming proje
 * 0x03-python-data_structures
 * 0x04-python-more_data_structures
 * 0x05-python-exceptions
+* 0x06-python-classes
 * 0x09-python-everything_is_object
