@@ -28,16 +28,16 @@ class Node:
             self.__data = value
 
         @property
-            def next_node(self):
-                """ Set the value of the new node """
-                return (self.__next_node)
+        def next_node(self):
+            """ Set the value of the new node """
+            return (self.__next_node)
 
         @next_node.setter
-            def next_node(self, value):
-                """ Set the value of the new node """
-                if not isinstance(value, Node) and value is not None:
-                    raise TypeError("next_node must be a Node object")
-                self.__next_node = value
+        def next_node(self, value):
+            """ Set the value of the new node """
+            if not isinstance(value, Node) and value is not None:
+                raise TypeError("next_node must be a Node object")
+            self.__next_node = value
 
 
 class SinglyLinkedList:
