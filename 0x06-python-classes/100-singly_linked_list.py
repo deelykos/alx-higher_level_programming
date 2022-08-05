@@ -27,12 +27,12 @@ class Node:
                 raise TypeError("data must be an integer")
             self.__data = value
 
-            @property
+        @property
             def next_node(self):
                 """ Set the value of the new node """
                 return (self.__next_node)
 
-            @next_node.setter
+        @next_node.setter
             def next_node(self, value):
                 """ Set the value of the new node """
                 if not isinstance(value, Node) and value is not None:
