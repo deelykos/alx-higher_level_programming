@@ -24,7 +24,7 @@ class Node:
         def data(self, value):
             """ Set the value of the data """
             if not isinstance(value, int):
-                raise TypeError("data must be an integer """)
+                raise TypeError("data must be an integer")
             self.__data = value
 
             @property
