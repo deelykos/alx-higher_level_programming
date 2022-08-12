@@ -3,8 +3,6 @@
 
 
 def matrix_divided(matrix, div):
-    new_row, new_matrix = [], []
-
     """ Division of all elements of a matrix.
 
     Args:
@@ -22,6 +20,7 @@ def matrix_divided(matrix, div):
     Returns:
         new matrix.
     """
+    new_row, new_matrix = [], []
 
     if type(matrix) is not list or matrix == []:
         raise TypeError(
