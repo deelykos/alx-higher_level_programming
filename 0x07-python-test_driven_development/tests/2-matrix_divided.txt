@@ -26,10 +26,6 @@ Now test it:
     Traceback (most recent call last):
     TypeError: div must be a number
 
-    >>> matrix_divided("Hello", 9)
-    Traceback (most recent call last):
-    TypeError: matrix must be a matrix (list of lists) of integers/floats
-
     >>> matrix_divided([[3, 4], [6, 7]], 0)
     Traceback (most recent call last):
     ZeroDivisionError: division by zero
