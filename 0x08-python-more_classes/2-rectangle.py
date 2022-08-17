@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" This module creates a Rectangle """
 
 
 class Rectangle:
@@ -6,6 +7,7 @@ class Rectangle:
 
     def __init__(self, width=0, height=0):
         """Initiation of Rectangle
+
         Args:
             width (int): Width must be an integer
             height (int): height must be an integer
