@@ -87,7 +87,6 @@ class Rectangle:
         """
         return cls(size, size)
 
-
     def __str__(self):
         """Return the printable representation of a Rectangle
         with # character
