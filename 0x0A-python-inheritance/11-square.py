@@ -19,5 +19,5 @@ class Square(Rectangle):
         """Return the print() and str() representation of a Square."""
         return "[Square] {:d}/{:d}".format(self.__size, self.__size)
     # if in task 9 I used str.(self.__class__.__name__) instead of the class
-    #name, I won't have added this method. Because my super() would cover
-    #for it.
+    # name, I won't have added this method. Because my super() would cover
+    # for it.
