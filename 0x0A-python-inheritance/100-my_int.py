@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Defines class inheritance MyInt of super class int"""
+"""Defines class inheritance MyInt of super class int."""
 
 
 class MyInt(int):
