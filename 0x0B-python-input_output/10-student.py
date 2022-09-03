@@ -26,4 +26,14 @@ class Student:
         if (type(attrs) == list and
                 all(isinstance(elem, str) for elem in attrs)):
             return {k: getattr(self, k) for k in attrs if hasattr(self, k)}
+        """ alternative is:
+        if attrs is None:
+            return self.__dict__
+        new_dict = {}
+        for a in attrs:
+            try:
+                new_dict[a] = self.__dict__[a]
+            except:
+                pass
+        return new_dict"""
         return self.__dict__
