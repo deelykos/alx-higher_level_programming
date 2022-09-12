@@ -2,7 +2,7 @@
 """Class Base"""
 import json
 import csv
-#import turtle
+import turtle
 
 
 class Base:
@@ -133,7 +133,7 @@ class Base:
         except IOError:
             return []
 
-    """@staticmethod
+    @staticmethod
     def draw(list_rectangles, list_squares):
         """Draw Rectangles and Squares using the turtle module.
         Args:
@@ -172,4 +172,3 @@ class Base:
             turt.hideturtle()
 
         turtle.exitonclick()
-"""
