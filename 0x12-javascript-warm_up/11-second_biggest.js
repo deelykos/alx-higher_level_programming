@@ -1,8 +1,9 @@
 #!/usr/bin/node
-let secBig = 0;
-const args = process.argv.slice(2);
-if (args.length > 1) {
-  args.sort();
-  secBig = args[args.length - 2];
+const arg = process.argv.slice(2); {
+  if (process.argv.length <= 3) {
+  console.log(0);
+  } else {
+  arg.sort((a, b) => a - b).reverse()
+  console.log(arg[1]);
+  }
 }
-console.log(secBig);
